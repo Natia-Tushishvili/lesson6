@@ -1,0 +1,110 @@
+.bg{
+	width: 100%;
+	height:100%;
+	position: relative;
+}
+.ballon-1{
+    width: 300px;
+	height:300px;
+	position: absolute;
+	top:560px;
+	left: 700px;
+	animation: ballon-1 45s infinite;
+}
+.ballon-2{
+    width: 300px;
+	height:300px;
+	position: absolute;
+	top:450px;
+	left: 950px;
+	animation: ballon-2 35s  infinite ;
+}
+.ballon-3{
+    width: 300px;
+	height:300px;
+	position: absolute;
+	top:260px;
+	left:0px;
+	animation: ballon-3 45s  infinite ;
+}
+.sun{
+	width: 150px;
+	height:150px;
+	position: absolute;
+	top:70px;
+	left: 450px;
+	animation: sun 70s infinite;
+}
+.cloud-1{
+	width: 150px;
+	height:150px;
+	position: absolute;
+	top:20px;
+	left: 450px;
+	animation:cloud-1 45s infinite;
+}
+.cloud-2{
+	width: 150px;
+	height:150px;
+	position: absolute;
+	top:35px;
+	left:450px;
+	animation:cloud-2 45s infinite;
+}
+.cloud-3{
+	width: 110px;
+	height:110px;
+	position: absolute;
+	top:10px;
+	left:600px;
+	animation:cloud-3 45s infinite;
+}
+.cloud-4{
+	width: 130px;
+	height:130px;
+	position: absolute;
+	top:15px;
+	left:900px;
+	animation:cloud-4 45s infinite;
+}
+	
+@keyframes ballon-1{
+	from{top: 560px;}
+	to{top:60px;}
+}
+@keyframes ballon-2{
+	from{top:450px;}
+	to{top:100px;}
+}
+@keyframes ballon-3{
+	from{top: 260px; }
+	to{top:80px;}
+}
+@keyframes sun {
+	0% {transform:  translate(-50%,-50%) rotate(45deg);}
+	25% {transform:  translate(-50%,-50%) rotate(90deg);}
+	50% {transform:  translate(-50%,-50%) rotate(360deg);}
+	75% {transform:  translate(-50%,-50%) rotate(90deg);}
+	100% {transform:  translate(-50%,-50%) rotate(45deg);}
+}
+@keyframes cloud-1{
+	from{left: 0px; }
+	to{left:180px;}
+}
+@keyframes cloud-2{
+	from{left:450px; }
+	to{left:800px;}
+}
+@keyframes cloud-3{
+	from{left:600px; }
+	to{left:1000px;}
+}
+@keyframes cloud-4{
+	from{left:900px; }
+	to{left:1500px;}
+}
+
+
+
+
+
